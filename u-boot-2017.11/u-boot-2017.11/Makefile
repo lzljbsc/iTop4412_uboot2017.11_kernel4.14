@@ -247,7 +247,7 @@ CROSS_COMPILE ?=
 endif
 
 #CROSS_COMPILE := arm-linux-gnueabi-
-CROSS_COMPILE := arm-none-linux-gnueabi-
+CROSS_COMPILE := /opt/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/arm-none-linux-gnueabi-
 
 KCONFIG_CONFIG	?= .config
 export KCONFIG_CONFIG
